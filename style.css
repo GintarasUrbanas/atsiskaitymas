@@ -1,13 +1,75 @@
 body {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 50px;
-color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    color: green;
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-a {
-    color: blue;
+h6 {
+    color: rgb(212, 68, 147);
+    
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.like {
+    display: flex;
+}
+
+.like {
+    background-image: url(./assets/graphic.svg);
+    background-position-x: right;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.like-text {
+    margin-right: 300px;
+}
+
+button {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-color: red yellow red red;
+    margin-bottom: 50px;
+
+
+}
+
+.pav {
+    background-image: url(./assets/background.svg);
+    background-position: center;
+    padding: 30px;
+    background-repeat: no-repeat;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+.cont {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.series {
+    width: 290px;
+    background-color: rgb(228, 222, 222);
+    margin-left: 20px;
+    border-radius: 0 0 20px 20px;
+
+
+}
+
+.ser {
+    color: red;
+    font-size: 12px;
+    padding-top: 20px;
 }
