@@ -1,10 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+.con {
+    display: flex;
+    
+}
+
+.burg {
+    display: none;
+        
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+span {
+    color: red;
 }
 
 h6 {
@@ -45,8 +65,15 @@ button {
 .pav {
     background-image: url(./assets/background.svg);
     background-position: center;
+    background-size: 100%;
     padding: 30px;
     background-repeat: no-repeat;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 h5 {
@@ -71,5 +98,86 @@ h5 {
 .ser {
     color: red;
     font-size: 12px;
-    padding-top: 20px;
+    padding-top: 50px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.sku {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like2 {
+    background-image: url(./assets/upsell-footer-image.svg);
+    background-position-x: right;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+   
+}
+
+footer {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    color: grey;
+}
+
+.foot {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    color: grey;
+    grid-column-end: end;
+}
+
+@media only screen and (max-width: 768px) {
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column: 1fr;
+        color: grey;
+    }
+    
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        color: grey;
+        grid-column-end: end;
+    }
+
+    .pav {
+        background-image: url(./assets/background.svg);
+
+        background-position: center;
+        background-size: cover;
+        padding: 30px;
+        background-repeat: no-repeat;
+    }
+
+    .con {
+        display: none;
+        
+    }
+
+    .burg {
+        display: block;
+            
+    }
+
 }
