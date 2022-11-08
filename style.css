@@ -90,6 +90,11 @@ h5 {
     font-size: 40px;
 }
 
+.open {
+    color: black;
+    text-decoration: underline;
+}
+
 .cont {
     display: flex;
     gap: 30px;
@@ -102,7 +107,6 @@ h5 {
 
 .series {
     width: 290px;
-    /* height: 150px; */
     background-color: rgb(228, 222, 222);
     margin-left: 20px;
     border-radius: 20px;
@@ -141,13 +145,6 @@ h5 {
    
 }
 
-footer {
-    /* display: flex;
-    justify-content: space-between; */
-    /* grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    color: grey; */
-}
 
 footer {
     display: grid;
@@ -175,17 +172,6 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
-    /* footer {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-column: 1fr;
-        color: grey;
-    } */
-    
-    /* footer {
-        display: grid;
- */
     footer {
         display: block;
     }
