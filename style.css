@@ -86,11 +86,16 @@ h5 {
     margin-left: 20px;
 }
 
+.corusel {
+    display: flex;
+}
+
 .series {
     width: 290px;
+    /* height: 150px; */
     background-color: rgb(228, 222, 222);
     margin-left: 20px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px;
 
 
 }
@@ -103,18 +108,18 @@ h5 {
 
 .group {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .name {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    
 }
 
 .sku {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .like2 {
@@ -128,7 +133,6 @@ h5 {
 
 footer {
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     color: grey;
@@ -144,15 +148,18 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
+/* 
     footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-column: 1fr;
         color: grey;
-    }
+    } */
     
+
+
+
     .foot {
         display: grid;
         grid-template-columns: 1fr 1fr;
